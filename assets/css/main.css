@@ -1,0 +1,301 @@
+body,
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+.header__main-content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.banner-header {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.logo-header {
+    z-index: 2;
+    position: absolute;
+    width: 35%;
+    top: 70px;
+    margin-top: auto;
+}
+
+.social-media {
+    position: fixed;
+    left: 0%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    z-index: 5;
+    display: flex;
+    width: 60px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.social-media>a>img {
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.main-content {
+    z-index: 4;
+    position: relative;
+    padding-top: 20px;
+    background-image: url("../../assets/img/main_content/rocket.png"), linear-gradient(180deg, rgba(33, 100, 204, 1) 0%, rgba(52, 164, 230, 1) 41%, rgba(114, 226, 240, 1) 73%, rgba(196, 240, 249, 1) 100%);
+    background-size: 100%;
+    background-position: 50% 50%, 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content>div {
+    margin: auto;
+}
+
+.video-title {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.video-title>.title {
+    width: 100%;
+}
+
+.video-content {
+    max-width: 1000px;
+}
+
+.video-frame>img {
+    width: 100%;
+}
+
+.video-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.screen-video {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.frame {
+    right: 40px;
+    top: 30px;
+    position: absolute;
+    width: 920px;
+    height: 500px;
+}
+
+.gameplay-content {
+    padding-top: 10rem;
+    max-width: 1000px;
+}
+
+.gameplay-title {
+    text-align: center;
+}
+
+.gameplay-title>img {
+    width: 40%;
+    height: 50px;
+}
+
+.gameplay-cards {
+    display: flex;
+}
+
+.gameplay-cards>img {
+    width: 35%;
+}
+
+.nfts-content {
+    padding-top: 10rem;
+    max-width: 1300px;
+}
+
+.nft-title {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.nft-title>img {
+    width: 40%;
+}
+
+.nfts-cards {
+    display: flex;
+}
+
+.nfts-cards>img {
+    width: 25%;
+}
+
+.nft-footer {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.nft-footer>img {
+    width: 40%;
+}
+
+.planets-content {
+    padding-top: 10rem;
+    max-width: 1300px;
+}
+
+.planet-title {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.planet-title>img {
+    width: 40%;
+}
+
+.planets-cards {
+    display: flex;
+}
+
+.planets-cards>img {
+    width: 25%;
+}
+
+.planet-footer {
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.planet-footer>img {
+    width: 70%;
+}
+
+.team-content {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+    position: relative;
+}
+
+.team-content>img {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.team-title>img {
+    padding-bottom: 3rem;
+    width: 20%;
+}
+
+.team-persons>img {
+    width: 45%;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content {
+    height: 800px;
+    z-index: 4;
+    position: relative;
+    background-image: url("../../assets/img/main_content/rocket.png"), linear-gradient(180deg, rgba(60, 33, 150, 1) 0%, rgba(92, 39, 181, 1) 25%, rgba(84, 81, 198, 1) 50%, rgba(68, 118, 205, 1) 75%, rgba(38, 45, 125, 1) 100%);
+    background-size: 100%;
+    background-position: 50% 50%, 0px 0px;
+}
+
+.footer-content>img {
+    width: 25%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.astronauts {
+    left: 100px;
+    width: 15%!important;
+    top: 60px!important;
+}
+
+.investor {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.investor>.investor-title {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-bottom: 1.5rem;
+}
+
+.investor>.cmc-investor {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.partners {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.partners>.partners-title {
+    display: block;
+    margin: auto;
+    width: 25%;
+    padding-bottom: 1.5rem;
+}
+
+.partners>.partners-persons {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.copyright {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.copyright>img {
+    width: 30%;
+}
+
+@media only screen and (max-width: 1380px) {}
+
+@media only screen and (max-width: 510px) {
+    .logo-header {
+        width: 60%;
+    }
+    .banner-header {
+        object-fit: cover;
+        width: 100vw;
+        height: 600px;
+    }
+}
