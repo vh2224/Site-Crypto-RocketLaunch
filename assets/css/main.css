@@ -295,7 +295,91 @@ body,
     }
     .banner-header {
         object-fit: cover;
-        width: 100vw;
         height: 600px;
+    }
+    .video-frame>img {
+        width: 80%;
+        z-index: 2;
+        display: block;
+        margin: auto;
+    }
+    .frame {
+        top: 0;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+    }
+    .gameplay-content {
+        padding-top: 5rem;
+    }
+    .gameplay-title>img {
+        height: 100%;
+    }
+    .gameplay-cards>img {
+        width: 33.3%;
+    }
+    .nfts-content {
+        padding-top: 5rem;
+    }
+    .nfts-cards {
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+    .nfts-cards>img {
+        width: 50%;
+    }
+    .nft-footer>img {
+        width: 80%;
+    }
+    .planets-content {
+        padding-top: 5rem;
+    }
+    .planet-footer>img {
+        width: 90%;
+    }
+    .planets-cards>img {
+        width: 50%;
+    }
+    .planets-cards {
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+    .team-content {
+        padding-top: 8rem;
+    }
+    .team-title>img {
+        width: 80%;
+    }
+    .team-content>img {
+        width: 30%;
+    }
+    .team-persons>img {
+        width: 80%;
+    }
+    .astronauts {
+        left: 30px;
+        width: 20%!important;
+        top: 40px!important;
+    }
+    .footer-content {
+        height: 100%;
+    }
+    .footer-content>img {
+        width: 30%;
+    }
+    .investor>.investor-title {
+        width: 40%;
+    }
+    .investor>.cmc-investor {
+        width: 60%;
+    }
+    .partners>.partners-title {
+        width: 40%;
+    }
+    .partners>.partners-persons {
+        width: 95%;
+    }
+    .copyright>img {
+        width: 95%;
     }
 }
